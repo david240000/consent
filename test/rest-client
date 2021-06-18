@@ -1,0 +1,13 @@
+GET http://localhost:3000/consent
+
+###
+POST http://localhost:3000/consent
+Content-Type: application/json
+
+{
+    "storeAndOrAccessInformationOnADevice": "true",
+    "selectBasicAds": "false",
+    "createPersonalizedAdsProfile": "true",
+    "selectPersonalizedAds": "true",
+    "selectPersonalizedContemtProfile": "false"
+}
